@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import HeroSlider from "./components/HeroSlider";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -6,9 +7,10 @@ export default function Home() {
     <>
       <Navbar />
 
-      <main className="min-h-screen">
+      <main className="bg-white">
+        <HeroSlider />
       </main>
-      
+
       <Footer />
     </>
   );
