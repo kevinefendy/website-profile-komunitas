@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#173F57] text-white">
       <div className="mx-auto max-w-[1280px] px-6 py-12">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-28">
           <div>
             <h2 className="text-[20px] font-bold">Amalan.com</h2>
 
@@ -68,8 +68,38 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
+          <div className="lg:pl-6">
             <h2 className="text-[20px] font-bold">Tentang</h2>
+
+            <div className="mt-5 flex flex-col gap-2 text-[14px] text-white/90">
+              <Link href="/tentang" className="hover:underline">
+                Amalan
+              </Link>
+
+              <Link href="/syarat-ketentuan" className="hover:underline">
+                Syarat & Ketentuan
+              </Link>
+
+              <Link href="/kontak" className="hover:underline">
+                Hubungi Kami
+              </Link>
+
+              <Link href="/partner" className="hover:underline">
+                Partner Kami
+              </Link>
+
+              <Link href="/faq" className="hover:underline">
+                FAQ
+              </Link>
+
+              <Link href="/blog" className="hover:underline">
+                Blog
+              </Link>
+
+              <Link href="/child-safety" className="hover:underline">
+                Child Safety Standards
+              </Link>
+            </div>
           </div>
         </div>
       </div>
