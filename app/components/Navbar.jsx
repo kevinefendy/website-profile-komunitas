@@ -11,7 +11,6 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white shadow-[0_3px_10px_rgba(0,0,0,0.08)]">
       <div className="mx-auto flex h-[70px] max-w-[1280px] items-center px-4 sm:px-6">
-        {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center gap-2">
           <Image
             src="/images/logo.svg"
@@ -33,7 +32,6 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Search Desktop */}
         <div className="mx-8 hidden flex-1 lg:block">
           <div className="relative">
             <input
@@ -71,7 +69,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Desktop Menu */}
         <div className="ml-auto hidden items-center gap-7 whitespace-nowrap text-[13px] font-semibold text-neutral-800 lg:flex">
           <Link href="/" className="transition hover:text-sky-500">
             Beranda
@@ -107,7 +104,6 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile */}
         <div className="ml-auto flex items-center gap-2 lg:hidden">
           <button
             type="button"
@@ -132,11 +128,9 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="border-t border-neutral-200 bg-white px-4 py-5 lg:hidden">
           <div className="mx-auto flex max-w-[1280px] flex-col gap-3">
-            {/* Search Mobile */}
             <div className="relative mb-2">
               <input
                 type="text"
