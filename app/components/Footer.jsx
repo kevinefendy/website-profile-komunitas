@@ -7,9 +7,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1280px] px-6 py-12">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
-            <h2 className="text-[20px] font-bold">
-              Amalan.com
-            </h2>
+            <h2 className="text-[20px] font-bold">Amalan.com</h2>
 
             <p className="mt-5 max-w-[430px] text-[14px] leading-6 text-white/90">
               Kami telah memiliki Izin Pengumpulan Uang dan Barang untuk Non
@@ -42,12 +40,36 @@ export default function Footer() {
                 <Icon icon="mdi:facebook" width={22} />
               </Link>
             </div>
+
+            <div className="mt-6 h-px max-w-[420px] bg-white/10" />
+
+            <div className="mt-5">
+              <h3 className="text-[20px] font-bold">Bahasa</h3>
+
+              <div className="mt-4 flex flex-wrap gap-3">
+                <button
+                  type="button"
+                  className="rounded-full border border-white/70 px-4 py-1 text-[14px] transition hover:bg-white hover:text-[#173F57]"
+                >
+                  English
+                </button>
+
+                <button
+                  type="button"
+                  className="rounded-full border border-white/70 px-4 py-1 text-[14px] transition hover:bg-white hover:text-[#173F57]"
+                >
+                  Bahasa Indonesia
+                </button>
+              </div>
+            </div>
+
+            <p className="mt-16 text-[14px] text-white/90">
+              © Yayasan Amalan Peduli Indonesia 2026
+            </p>
           </div>
 
           <div>
-            <h2 className="text-[20px] font-bold">
-              Tentang
-            </h2>
+            <h2 className="text-[20px] font-bold">Tentang</h2>
           </div>
         </div>
       </div>
