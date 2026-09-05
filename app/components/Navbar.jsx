@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-[70px] max-w-[1280px] items-center px-4 sm:px-6">
         <Link href="/" className="flex shrink-0 items-center gap-2">
           <Image
-            src="/images/logo.svg"
+            src="/images/logo.png"
             alt="Amalan.com"
             width={52}
             height={52}
@@ -127,7 +127,6 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-
       {isOpen && (
         <div className="border-t border-neutral-200 bg-white px-4 py-5 lg:hidden">
           <div className="mx-auto flex max-w-[1280px] flex-col gap-3">
