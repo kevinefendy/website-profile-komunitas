@@ -21,20 +21,8 @@ export default function DonationCard({
       case "Zakat":
         return "bg-green-500 text-white";
 
-      case "Kerohanian":
-        return "bg-slate-500 text-white";
-
-      case "Olahraga":
-        return "bg-neutral-500 text-white";
-
-      case "Sosial":
-        return "bg-neutral-500 text-white";
-
-      case "Donasi":
-        return "bg-sky-500 text-white";
-
       default:
-        return "bg-neutral-200 text-neutral-700";
+        return "bg-neutral-500 text-white";
     }
   };
 
@@ -53,7 +41,7 @@ export default function DonationCard({
           <div className="flex shrink-0 items-center gap-1">
             {category && (
               <span
-                className={`rounded-full px-2 py-1 text-[9px] font-medium ${getCategoryStyle(
+                className={`rounded-lg px-1 py-1 text-[9px] font-medium ${getCategoryStyle(
                   category,
                 )}`}
               >
@@ -63,7 +51,7 @@ export default function DonationCard({
 
             {subCategory && (
               <span
-                className={`rounded-full px-2 py-1 text-[9px] font-medium ${getCategoryStyle(
+                className={`rounded-lg px-1 py-1 text-[9px] font-medium ${getCategoryStyle(
                   subCategory,
                 )}`}
               >
