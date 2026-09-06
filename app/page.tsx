@@ -40,6 +40,10 @@ const categories = [
 export default function Home() {
   const mariBantu = donations.filter((item) => item.section === "mari-bantu");
 
+  const campaignMendesak = donations.filter(
+    (item) => item.section === "campaign-mendesak",
+  );
+
   return (
     <>
       <Navbar />
@@ -167,6 +171,20 @@ export default function Home() {
                 className="h-auto w-full"
               />
             </Link>
+          </section>
+
+          <section className="mx-auto max-w-[1280px] px-6">
+            <div className="mb-5 flex items-center justify-between">
+              <h2 className="text-[18px] font-bold text-neutral-800 sm:text-[20px] lg:text-[22px]">
+                Campaign Mendesak Minggu Ini
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-5">
+              {campaignMendesak.map((item) => (
+                <DonationCard key={item.id} {...item} />
+              ))}
+            </div>
           </section>
         </div>
       </main>
