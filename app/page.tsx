@@ -329,6 +329,66 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          <section className="mx-auto max-w-[1280px] px-6">
+            <div className="rounded-2xl bg-white px-6 py-8 shadow-[0_2px_12px_rgba(0,0,0,0.08)] sm:px-8 sm:py-10">
+              <h2 className="text-center text-[24px] font-bold leading-tight text-neutral-800 sm:text-[28px] lg:text-[32px]">
+                #KerjasamaKami
+              </h2>
+
+              <div className="mt-8 grid grid-cols-2 items-center gap-x-2 gap-y-5 sm:grid-cols-3 lg:grid-cols-5">
+                <div className="flex items-center justify-center">
+                  <Image
+                    src="/images/homepage/partner-halodoc.png"
+                    alt="Halodoc"
+                    width={190}
+                    height={90}
+                    className="h-auto max-h-[75px] w-auto object-contain lg:max-h-[85px]"
+                  />
+                </div>
+
+                <div className="flex items-center justify-center">
+                  <Image
+                    src="/images/homepage/partner-kalbe.png"
+                    alt="Kalbe"
+                    width={190}
+                    height={90}
+                    className="h-auto max-h-[75px] w-auto object-contain lg:max-h-[85px]"
+                  />
+                </div>
+
+                <div className="flex items-center justify-center">
+                  <Image
+                    src="/images/homepage/partner-kimiafarma.png"
+                    alt="Kimia Farma"
+                    width={190}
+                    height={90}
+                    className="h-auto max-h-[75px] w-auto object-contain lg:max-h-[85px]"
+                  />
+                </div>
+
+                <div className="flex items-center justify-center">
+                  <Image
+                    src="/images/homepage/partner-bca.png"
+                    alt="BCA"
+                    width={190}
+                    height={90}
+                    className="h-auto max-h-[75px] w-auto object-contain lg:max-h-[85px]"
+                  />
+                </div>
+
+                <div className="flex items-center justify-center">
+                  <Image
+                    src="/images/homepage/partner-sidomuncul.png"
+                    alt="Sido Muncul"
+                    width={190}
+                    height={90}
+                    className="h-auto max-h-[75px] w-auto object-contain lg:max-h-[85px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
 
