@@ -92,7 +92,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-5">
             {donations
               .filter((item) => item.section === "mari-bantu")
               .map((item) => (
