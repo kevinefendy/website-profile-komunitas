@@ -44,6 +44,10 @@ export default function Home() {
     (item) => item.section === "campaign-mendesak",
   );
 
+  const pilihanAyoBantu = donations.filter(
+    (item) => item.section === "pilihan-ayobantu",
+  );
+
   return (
     <>
       <Navbar />
@@ -182,6 +186,27 @@ export default function Home() {
 
             <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-5">
               {campaignMendesak.map((item) => (
+                <DonationCard key={item.id} {...item} />
+              ))}
+            </div>
+          </section>
+
+          <section className="mx-auto max-w-[1280px] px-6">
+            <div className="mb-5 flex items-center justify-between">
+              <h2 className="text-[18px] font-bold text-neutral-800 sm:text-[20px] lg:text-[22px]">
+                Pilihan AyoBantu
+              </h2>
+
+              <Link
+                href="/donasi"
+                className="rounded-full bg-[#214E67] px-3 py-2 text-[10px] text-white transition hover:bg-[#173F57] sm:px-4 sm:text-[11px]"
+              >
+                Lihat lainnya
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-5">
+              {pilihanAyoBantu.map((item) => (
                 <DonationCard key={item.id} {...item} />
               ))}
             </div>
