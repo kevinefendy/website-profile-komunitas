@@ -21,7 +21,7 @@ export default function HeroSlider() {
   };
 
   return (
-    <section className="mx-auto max-w-[1280px] px-6">
+    <section className="mx-auto max-w-[1280px] px-6 pt-6 sm:pt-8 lg:pt-10">
       <div className="relative overflow-hidden rounded-xl">
         <Image
           src={banners[current]}

@@ -45,7 +45,7 @@ export default function Home() {
       <Navbar />
 
       <main className="bg-white">
-        <div className="space-y-8 pb-14 sm:space-y-8 lg:space-y-12">
+        <div className="space-y-10 pb-14 sm:space-y-8 lg:space-y-12">
           <section>
             <HeroSlider />
           </section>
@@ -153,6 +153,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </section>
+
+          <section className="mx-auto max-w-[1280px] px-6">
+            <Link href="/donasi" className="block overflow-hidden rounded-xl">
+              <Image
+                src="/images/homepage/banner3.png"
+                alt="Ayo Berbagi di Bantu Makan"
+                width={1240}
+                height={475}
+                quality={100}
+                unoptimized
+                className="h-auto w-full"
+              />
+            </Link>
           </section>
         </div>
       </main>
