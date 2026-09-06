@@ -73,7 +73,7 @@ export default function DonationCard({
           </div>
         </div>
 
-        <div className="mt-4 h-[7px] w-full overflow-hidden rounded-full bg-neutral-200">
+        <div className="mt-2 h-[7px] w-full overflow-hidden rounded-full bg-neutral-200">
           <div
             className="h-full rounded-full bg-green-500"
             style={{ width: `${progress}%` }}
@@ -92,8 +92,8 @@ export default function DonationCard({
           </p>
         </div>
 
-        <div className="mt-auto pt-5">
-          <p className="mb-5 text-[12px] font-medium text-neutral-900">
+        <div className="mt-auto pt-3">
+          <p className="mb-4 text-[12px] font-medium text-neutral-900">
             {organizer}
           </p>
 
