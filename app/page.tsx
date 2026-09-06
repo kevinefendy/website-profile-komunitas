@@ -3,6 +3,8 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HeroSlider from "./components/HeroSlider";
+import DonationCard from "./components/DonationCard";
+import donations from "@/data/donations.json";
 
 const categories = [
   {
@@ -73,6 +75,29 @@ export default function Home() {
                 </Link>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-[1280px] px-6 pb-8">
+          <div className="mb-4 flex items-center justify-between">
+            <h2 className="text-[22px] font-bold text-neutral-800">
+              Mari Bantu Mereka
+            </h2>
+
+            <Link
+              href="/donasi"
+              className="rounded-full bg-[#214E67] px-4 py-2 text-[11px] text-white"
+            >
+              Lihat lainnya
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-3 gap-5">
+            {donations
+              .filter((item) => item.section === "mari-bantu")
+              .map((item) => (
+                <DonationCard key={item.id} {...item} />
+              ))}
           </div>
         </section>
       </main>
