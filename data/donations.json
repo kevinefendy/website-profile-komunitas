@@ -94,5 +94,53 @@
     "verified": false,
     "buttonText": "Donasi",
     "href": "/donasi"
+  },
+  {
+    "id": 7,
+    "section": "pilihan-ayobantu",
+    "type": "donasi",
+    "image": "/images/homepage/donation7.png",
+    "title": "Bantu Pendidikan Anak-anak Indonesia",
+    "category": "Pendidikan",
+    "subCategory": null,
+    "collected": 2450000,
+    "target": 10000000,
+    "unlimited": false,
+    "organizer": "Amalan",
+    "verified": true,
+    "buttonText": "Donasi",
+    "href": "/donasi"
+  },
+  {
+    "id": 8,
+    "section": "pilihan-ayobantu",
+    "type": "donasi",
+    "image": "/images/homepage/donation8.png",
+    "title": "Sedekah untuk Keluarga yang Membutuhkan",
+    "category": "Sosial",
+    "subCategory": null,
+    "collected": 4750000,
+    "target": null,
+    "unlimited": true,
+    "organizer": "Rumah Kebaikan",
+    "verified": true,
+    "buttonText": "Donasi",
+    "href": "/donasi"
+  },
+  {
+    "id": 9,
+    "section": "pilihan-ayobantu",
+    "type": "donasi",
+    "image": "/images/homepage/donation9.png",
+    "title": "Bantu Pengobatan untuk Mereka yang Membutuhkan",
+    "category": "Kesehatan",
+    "subCategory": null,
+    "collected": 3250000,
+    "target": 12000000,
+    "unlimited": false,
+    "organizer": "Amalan",
+    "verified": false,
+    "buttonText": "Donasi",
+    "href": "/donasi"
   }
 ]
