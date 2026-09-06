@@ -211,6 +211,84 @@ export default function Home() {
               ))}
             </div>
           </section>
+
+          <section className="mx-auto max-w-[1280px] px-6">
+            <div className="rounded-2xl bg-white px-5 py-8 shadow-[0_2px_12px_rgba(0,0,0,0.08)] sm:px-8 sm:py-10">
+              <div className="text-center">
+                <h2 className="text-[24px] font-bold leading-tight text-neutral-800 sm:text-[28px] lg:text-[32px]">
+                  Kenapa Berbagi
+                  <br />
+                  Bersama Amalan?
+                </h2>
+
+                <p className="mt-2 text-[12px] text-neutral-500 sm:text-[14px]">
+                  #BerAmal untuk yang membutuhkan
+                </p>
+              </div>
+
+              <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-4 lg:mt-12 lg:gap-10">
+                <div className="flex flex-col items-center text-center">
+                  <Icon
+                    icon="solar:heart-linear"
+                    className="text-[48px] text-[#214E67] sm:text-[56px] lg:text-[64px]"
+                  />
+
+                  <h3 className="mt-4 text-[15px] font-bold text-neutral-800 sm:text-[17px] lg:text-[18px]">
+                    Bantu
+                  </h3>
+
+                  <p className="mt-2 max-w-[210px] text-[11px] leading-5 text-neutral-600 sm:text-[12px] lg:text-[13px]">
+                    #AyoBantu sesama yang membutuhkan
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center text-center">
+                  <Icon
+                    icon="solar:smartphone-linear"
+                    className="text-[48px] text-[#214E67] sm:text-[56px] lg:text-[64px]"
+                  />
+
+                  <h3 className="mt-4 text-[15px] font-bold text-neutral-800 sm:text-[17px] lg:text-[18px]">
+                    Praktis
+                  </h3>
+
+                  <p className="mt-2 max-w-[210px] text-[11px] leading-5 text-neutral-600 sm:text-[12px] lg:text-[13px]">
+                    Bantu sesama dari mana pun, cukup gunakan HP kita
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center text-center">
+                  <Icon
+                    icon="solar:target-linear"
+                    className="text-[48px] text-[#214E67] sm:text-[56px] lg:text-[64px]"
+                  />
+
+                  <h3 className="mt-4 text-[15px] font-bold text-neutral-800 sm:text-[17px] lg:text-[18px]">
+                    Tepat Sasaran
+                  </h3>
+
+                  <p className="mt-2 max-w-[210px] text-[11px] leading-5 text-neutral-600 sm:text-[12px] lg:text-[13px]">
+                    Program penggalangan dana dipertanggungjawabkan kebenarannya
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center text-center">
+                  <Icon
+                    icon="solar:magnifer-linear"
+                    className="text-[48px] text-[#214E67] sm:text-[56px] lg:text-[64px]"
+                  />
+
+                  <h3 className="mt-4 text-[15px] font-bold text-neutral-800 sm:text-[17px] lg:text-[18px]">
+                    Transparan
+                  </h3>
+
+                  <p className="mt-2 max-w-[210px] text-[11px] leading-5 text-neutral-600 sm:text-[12px] lg:text-[13px]">
+                    Penyaluran dana dilakukan secara transparan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
 
