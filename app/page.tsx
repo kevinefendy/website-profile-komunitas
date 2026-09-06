@@ -289,6 +289,46 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          <section className="mx-auto max-w-[1280px] px-6">
+            <div className="rounded-2xl bg-[#173F57] px-6 py-8 shadow-[0_2px_12px_rgba(0,0,0,0.08)] sm:px-10 sm:py-9">
+              <div className="grid grid-cols-1 gap-8 text-white sm:grid-cols-2">
+                <div className="flex items-center justify-center gap-4">
+                  <Icon
+                    icon="solar:users-group-rounded-bold"
+                    className="text-[48px] text-white sm:text-[56px]"
+                  />
+
+                  <div>
+                    <p className="text-[22px] font-bold sm:text-[26px]">
+                      7.909.510
+                    </p>
+
+                    <p className="mt-1 text-[10px] text-white/80 sm:text-[12px]">
+                      #TemanPeduli telah berdonasi
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-center gap-4">
+                  <Icon
+                    icon="solar:card-bold"
+                    className="text-[48px] text-white sm:text-[56px]"
+                  />
+
+                  <div>
+                    <p className="text-[22px] font-bold sm:text-[26px]">
+                      Rp. 510.890.218
+                    </p>
+
+                    <p className="mt-1 text-[10px] text-white/80 sm:text-[12px]">
+                      Dana terkumpul
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
 
