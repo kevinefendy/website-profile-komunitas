@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-[0_3px_10px_rgba(0,0,0,0.08)]">
+    <nav className="relative z-50 w-full bg-white shadow-[0_3px_10px_rgba(0,0,0,0.10)]">
       <div className="mx-auto flex h-[70px] max-w-[1280px] items-center px-4 sm:px-6">
         <Link href="/" className="flex shrink-0 items-center gap-2">
           <Image
