@@ -45,7 +45,7 @@ export default function Home() {
       <Navbar />
 
       <main className="bg-white">
-        <div className="space-y-12 pb-14">
+        <div className="space-y-8 pb-14 sm:space-y-8 lg:space-y-12">
           <section>
             <HeroSlider />
           </section>
@@ -108,47 +108,45 @@ export default function Home() {
           </section>
 
           <section className="mx-auto max-w-[1280px] px-6">
-            <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-              <div className="flex items-center gap-5 rounded-xl border border-neutral-200 bg-white p-5 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
-                <div className="flex h-[110px] w-[90px] shrink-0 items-center justify-center">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:gap-6">
+              <div className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.06)] sm:gap-4 sm:p-5 lg:gap-5">
+                <div className="flex h-[76px] w-[64px] shrink-0 items-center justify-center sm:h-[90px] sm:w-[74px] lg:h-[110px] lg:w-[90px]">
                   <Icon
                     icon="solar:hand-heart-linear"
-                    width={82}
-                    className="text-neutral-800"
+                    className="text-[58px] text-neutral-800 sm:text-[68px] lg:text-[82px]"
                   />
                 </div>
 
-                <div>
-                  <h3 className="text-[14px] font-bold text-neutral-800 sm:text-[16px]">
+                <div className="min-w-0">
+                  <h3 className="text-[12px] font-bold leading-4 text-neutral-800 sm:text-[14px] sm:leading-5 lg:text-[16px]">
                     Masih ingin berdonasi lebih banyak untuk mereka
                   </h3>
 
                   <Link
                     href="/donasi"
-                    className="mt-4 inline-block rounded-md border border-[#214E67] px-4 py-2 text-[13px] font-bold text-[#214E67] transition hover:bg-[#214E67] hover:text-white"
+                    className="mt-3 inline-block rounded-md border border-[#214E67] px-3 py-2 text-[10px] font-bold text-[#214E67] transition hover:bg-[#214E67] hover:text-white sm:px-4 sm:text-[12px] lg:text-[13px]"
                   >
                     Donasi Sekarang
                   </Link>
                 </div>
               </div>
 
-              <div className="flex items-center gap-5 rounded-xl border border-neutral-200 bg-white p-5 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
-                <div className="flex h-[110px] w-[90px] shrink-0 items-center justify-center">
+              <div className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.06)] sm:gap-4 sm:p-5 lg:gap-5">
+                <div className="flex h-[76px] w-[64px] shrink-0 items-center justify-center sm:h-[90px] sm:w-[74px] lg:h-[110px] lg:w-[90px]">
                   <Icon
                     icon="solar:gift-linear"
-                    width={82}
-                    className="text-neutral-800"
+                    className="text-[58px] text-neutral-800 sm:text-[68px] lg:text-[82px]"
                   />
                 </div>
 
-                <div>
-                  <h3 className="text-[14px] font-bold text-neutral-800 sm:text-[16px]">
+                <div className="min-w-0">
+                  <h3 className="text-[12px] font-bold leading-4 text-neutral-800 sm:text-[14px] sm:leading-5 lg:text-[16px]">
                     #BerAmalan bagi mereka yang membutuhkan
                   </h3>
 
                   <Link
                     href="/login"
-                    className="mt-4 inline-block rounded-md border border-[#214E67] px-4 py-2 text-[13px] font-bold text-[#214E67] transition hover:bg-[#214E67] hover:text-white"
+                    className="mt-3 inline-block rounded-md border border-[#214E67] px-3 py-2 text-[10px] font-bold text-[#214E67] transition hover:bg-[#214E67] hover:text-white sm:px-4 sm:text-[12px] lg:text-[13px]"
                   >
                     Galang Dana
                   </Link>

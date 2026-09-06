@@ -17,13 +17,11 @@ export default function HeroSlider() {
   };
 
   const prevSlide = () => {
-    setCurrent((prev) =>
-      prev === 0 ? banners.length - 1 : prev - 1
-    );
+    setCurrent((prev) => (prev === 0 ? banners.length - 1 : prev - 1));
   };
 
   return (
-    <section className="mx-auto max-w-[1280px] px-6 py-6">
+    <section className="mx-auto max-w-[1280px] px-6">
       <div className="relative overflow-hidden rounded-xl">
         <Image
           src={banners[current]}
@@ -60,9 +58,7 @@ export default function HeroSlider() {
               onClick={() => setCurrent(index)}
               aria-label={`Banner ${index + 1}`}
               className={`h-2 rounded-full transition-all ${
-                current === index
-                  ? "w-6 bg-white"
-                  : "w-2 bg-white/50"
+                current === index ? "w-6 bg-white" : "w-2 bg-white/50"
               }`}
             />
           ))}
