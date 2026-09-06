@@ -67,7 +67,7 @@ export default function Home() {
                     />
                   </div>
 
-                  <span className="text-center text-[10px] font-medium text-neutral-700 sm:text-[12px] lg:text-[15px]">
+                  <span className="text-center text-[10px] font-medium text-neutral-700 sm:text-[11px] lg:text-[13px]">
                     {category.name}
                   </span>
                 </Link>

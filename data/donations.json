@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "section": "mari-bantu",
+    "type": "zakat",
+    "image": "/images/homepage/donation1.png",
+    "title": "Zakat Penghasilan",
+    "category": "Zakat",
+    "subCategory": "Kerohanian",
+    "collected": 1550000,
+    "target": null,
+    "unlimited": true,
+    "organizer": "Rumah Yatim",
+    "verified": true,
+    "buttonText": "Zakat",
+    "href": "/zakat"
+  },
+  {
+    "id": 2,
+    "section": "mari-bantu",
+    "type": "donasi",
+    "image": "/images/homepage/donation2.png",
+    "title": "Indonesia Bebas Thalasemia: Bersama Melangkah, Bersama Mencegah",
+    "category": "Olahraga",
+    "collected": 8464192,
+    "target": null,
+    "unlimited": true,
+    "organizer": "Stanley Joeveno",
+    "verified": true,
+    "buttonText": "Donasi",
+    "href": "/donasi"
+  },
+  {
+    "id": 3,
+    "section": "mari-bantu",
+    "type": "donasi",
+    "image": "/images/homepage/donation3.png",
+    "title": "#BantuMakan Ayo Bantu Saudara Kita yang Kelaparan",
+    "category": "Sosial",
+    "collected": 57442545,
+    "target": 100000000,
+    "unlimited": false,
+    "organizer": "Amalan",
+    "verified": false,
+    "buttonText": "Donasi",
+    "href": "/donasi"
+  }
+]
