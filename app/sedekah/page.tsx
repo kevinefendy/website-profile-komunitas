@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,12 +44,17 @@ export default function SedekahPage() {
               </span>
             </div>
 
-            <Link
-              href="#detail-sedekah"
+            <button
+              type="button"
+              onClick={() =>
+                alert(
+                  "Terima kasih! Sedekah Anda berhasil dilakukan. Semoga menjadi kebaikan yang bermanfaat.",
+                )
+              }
               className="flex h-[42px] items-center justify-center rounded-md bg-[#79bfd8] px-6 text-[12px] font-semibold text-white transition hover:bg-[#69B8D3] sm:min-w-[280px]"
             >
               SEDEKAH SEKARANG
-            </Link>
+            </button>
           </div>
 
           <section id="detail-sedekah" className="mt-8">
