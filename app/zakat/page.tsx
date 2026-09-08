@@ -83,18 +83,31 @@ export default function ZakatPage() {
               </p>
               <div className="mt-4 border-t border-neutral-200">
                 <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
-                  <span className="text-[18px] text-neutral-500">▣</span>
+                  <div className="flex items-center gap-3">
+                        <Icon
+                            icon="material-symbols:calculate-outline"
+                            className="text-[18px] text-neutral-500"
+                        />
 
-                  <span className="text-[11px] font-semibold text-neutral-600">
-                    Kalkulator Zakat Penghasilan
-                  </span>
+                        <span className="text-[11px] font-semibold text-neutral-600">
+                            Kalkulator Zakat Penghasilan
+                        </span>
+                    </div>
                 </div>
                 <div className="border-b border-neutral-200 py-3">
-                  <div className="flex items-center gap-3">
-                    <span className="text-[18px] text-neutral-500">♧</span>
-                    <span className="text-[11px] font-semibold text-neutral-600">
-                      Niat Zakat Penghasilan
-                    </span>
+                  <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
+                        <div>
+                            <div className="flex items-center gap-3">
+                                <Icon
+                                    icon="material-symbols:volunteer-activism-outline"
+                                    className="text-[18px] text-neutral-500"
+                                />
+
+                                <span className="text-[11px] font-semibold text-neutral-600">
+                                    Niat Zakat Penghasilan
+                                </span>
+                            </div>
+                        </div>
                   </div>
                   <p className="mt-2 text-[11px] leading-5 text-neutral-500">
                     نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ مَالِي فَرِيْضَةً لِلَّهِ
@@ -109,9 +122,12 @@ export default function ZakatPage() {
                   </p>
                 </div>
               </div>
-              <button className="mt-4 w-full rounded bg-[#79bfd8] py-2 text-[11px] font-semibold text-white">
-                BAYAR ZAKAT
-              </button>
+                <button
+                    onClick={() => alert("Terima kasih telah membayar zakat.")}
+                    className="mt-4 w-full rounded bg-[#79bfd8] py-2 text-[11px] font-semibold text-white"
+                >
+                    BAYAR ZAKAT
+                </button>
             </div>
           </div>
         </div>
