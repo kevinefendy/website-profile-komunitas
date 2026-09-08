@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amalan.com — Project Development
 
-## Getting Started
+> A community platform designed to encourage people to share kindness and create meaningful impact through donation, charity, waqf, and zakat.
 
-First, run the development server:
+---
+
+## Project Overview
+
+**Amalan.com** adalah platform yang dibuat untuk memudahkan pengguna dalam  
+berbagi kebaikan melalui donasi, sedekah, wakaf, dan zakat.
+
+Website ini juga menyediakan berbagai informasi dan artikel yang berkaitan  
+dengan kegiatan sosial dan berbagi kebaikan.
+
+Project ini dikembangkan secara kolaboratif dengan pembagian tanggung jawab  
+berdasarkan role dan task masing-masing anggota tim.
+
+---
+
+## Team Structure
+
+| Member | Role | Responsibility |
+| ------ | ---- | -------------- |
+| **Muhammad Kevin Effendy** | Project Manager | Project planning, task management, and team coordination |
+| **Audrey Callysta Nevaely** | Front-End & Back-End Developer | Interface implementation, backend, API, and database development |
+| **Linda Maulida Febriani** | UI/UX & Documentation | UI/UX design and project documentation |
+| **Rafa Ayman Huda** | Quality Assurance (QA) | Application testing and quality assurance |
+
+---
+
+## Cara Menjalankan Aplikasi
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/kevinefendy/website-profile-komunitas.git
+```
+
+### 2. Masuk ke Folder Project
+
+```bash
+cd website-profile-komunitas
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Jalankan Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Buka Aplikasi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Setelah development server berjalan, buka browser dan akses:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Tampilan Website
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Home Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<p align="center">
+  <img src="./public/images/homePage.png" width="800">
+</p>
 
-## Deploy on Vercel
+### Halaman Zakat
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+  <img src="./public/images/Zakat.png" width="800">
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Halaman Sedekah
+
+<p align="center">
+  <img src="./public/images/sedekah.png" width="800">
+</p>
+
+### Halaman Wakaf
+
+<p align="center">
+  <img src="./public/images/wakaf.png" width="800">
+</p>
+
+### Halaman Gabung Komunitas
+
+<p align="center">
+  <img src="./public/images/gabungkomunitas.png" width="800">
+</p>
+
+---
+
+## Project Principle
+
+> **"Berbagi Kebaikan, Ciptakan Dampak."**
+
+Amalan.com dibangun dengan tujuan menghadirkan ruang digital yang mendorong  
+masyarakat untuk berbagi, berkontribusi, dan menciptakan dampak positif  
+melalui berbagai bentuk kebaikan.
+
+---
+
+<p align="center">
+  <strong>Amalan.com</strong><br>
+  Berbagi Kebaikan • Memberi Dampak • Bersama
+</p>
