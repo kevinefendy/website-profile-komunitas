@@ -79,7 +79,22 @@ export default function ZakatPage() {
                     mereka. Allah Maha Mendengar lagi Maha Mengetahui.”
                     (QS. At-Taubah: 103).
                 </p>
-                
+                <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                    Dari ayat ini, jelas menegaskan bahwa zakat berfungsi sebagai
+                    penyucian harta yang kita peroleh. Sehingga harta kita menjadi bersih
+                    dari hak-hak orang lain, serta untuk memastikan harta yang kita miliki
+                    berkah dan dapat membawa keberkahan.
+                </p>
+                <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                    Hukum zakat penghasilan ulama fiqh berbeda pendapat. Mayoritas ulama’
+                    Madzhab empat tidak mewajibkan zakat penghasilan pada saat menerima
+                    kecuali sudah mencapai nisab dan setahun (haul). Namun para ulama’
+                    mutaakhirin seperti Syekh Adurrahman Hasan, Syekh Muhammad Abu Zahro,
+                    Syekh Abdul Wahhab Khallaf, Syekh Yusuf Al-Qardhawi, Syekh Wahbah
+                    Az-Zuhaili, hasil kajian majma’ fiqh dan fatwa MUI Nomor 3 tahun 2003
+                    menegaskan bahwa zakat penghasilan itu hukumnya wajib.
+                </p>
+
               </div>
             </div>
             <div>
