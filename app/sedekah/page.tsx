@@ -34,21 +34,21 @@ export default function SedekahPage() {
               />
             </div>
           </section>
-        </div>
 
-        <div className="mt-5 flex flex-col gap-4 border-b border-neutral-200 pb-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <span className="border-b-2 border-[#214E67] pb-2 text-[12px] font-semibold text-[#214E67]">
-              Detail
-            </span>
+          <div className="mt-5 flex flex-col gap-4 border-b border-neutral-200 pb-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <span className="border-b-2 border-[#214E67] pb-2 text-[12px] font-semibold text-[#214E67]">
+                Detail
+              </span>
+            </div>
+
+            <Link
+              href="#detail-sedekah"
+              className="flex h-[42px] items-center justify-center rounded-md bg-[#79bfd8] px-6 text-[12px] font-semibold text-white transition hover:bg-[#69B8D3] sm:min-w-[280px]"
+            >
+              SEDEKAH SEKARANG
+            </Link>
           </div>
-
-          <Link
-            href="#detail-sedekah"
-            className="flex h-[42px] items-center justify-center rounded-md bg-[#79bfd8] px-6 text-[12px] font-semibold text-white transition hover:bg-[#69B8D3] sm:min-w-[280px]"
-          >
-            SEDEKAH SEKARANG
-          </Link>
         </div>
       </main>
 
