@@ -131,48 +131,44 @@ export default function ZakatPage() {
               </p>
 
               <div className="mt-4 border-t border-neutral-200">
-                <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
+                <div className="flex items-center gap-3 border-b border-neutral-200 py-4">
+                  <Icon
+                    icon="material-symbols:calculate-outline"
+                    className="text-[22px] text-neutral-500"
+                  />
+
+                  <span className="text-[11px] font-semibold text-neutral-600 sm:text-[12px] lg:text-[13px]">
+                    Kalkulator Zakat Penghasilan
+                  </span>
+                </div>
+
+                <div className="border-b border-neutral-200 py-4">
                   <div className="flex items-center gap-3">
                     <Icon
-                      icon="material-symbols:calculate-outline"
-                      className="text-[20px] text-neutral-500"
+                      icon="material-symbols:volunteer-activism-outline"
+                      className="text-[22px] text-neutral-500"
                     />
 
                     <span className="text-[11px] font-semibold text-neutral-600 sm:text-[12px] lg:text-[13px]">
-                      Kalkulator Zakat Penghasilan
+                      Niat Zakat Penghasilan
                     </span>
                   </div>
-                </div>
 
-                <div className="border-b border-neutral-200 py-3">
-                  <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
-                    <div>
-                      <div className="flex items-center gap-3">
-                        <Icon
-                          icon="material-symbols:volunteer-activism-outline"
-                          className="text-[20px] text-neutral-500"
-                        />
+                  <div className="mt-3 space-y-1">
+                    <p className="text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
+                      نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ مَالِي فَرِيْضَةً لِلَّهِ
+                      تَعَالَى
+                    </p>
 
-                        <span className="text-[11px] font-semibold text-neutral-600 sm:text-[12px] lg:text-[13px]">
-                          Niat Zakat Penghasilan
-                        </span>
-                      </div>
-                    </div>
+                    <p className="text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
+                      “Nawaitu an ukhrija zakaati maali fardha lillahi ta’aala”
+                    </p>
+
+                    <p className="text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
+                      Saya berniat mengeluarkan zakat harta milikku karena Allah
+                      Ta’ala
+                    </p>
                   </div>
-
-                  <p className="mt-2 text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
-                    نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ مَالِي فَرِيْضَةً لِلَّهِ
-                    تَعَالَى
-                  </p>
-
-                  <p className="text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
-                    “Nawaitu an ukhrija zakaati maali fardha lillahi ta’aala”
-                  </p>
-
-                  <p className="text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
-                    Saya berniat mengeluarkan zakat harta milikku karena Allah
-                    Ta’ala
-                  </p>
                 </div>
               </div>
 
