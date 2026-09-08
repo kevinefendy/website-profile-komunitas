@@ -53,49 +53,60 @@ export default function ZakatPage() {
             <span>Zakat</span>
           </div>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[570px_287px]">
-            <div>
-              <Image
-                src="/images/zakat/zakat.jfif"
-                alt="Zakat Penghasilan"
-                width={570}
-                height={355}
-                quality={100}
-                className="h-auto w-full object-cover"
-              />
-              <div className="mt-5">
-                <h1 className="bg-neutral-50 px-0 text-[20px] font-normal text-[#2F6690]">
-                  Dasar Hukum Zakat Penghasilan
-                </h1>
-                <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                    Zakat penghasilan adalah zakat yang dikenakan atas pendapatan seseorang,
-                    baik bersumber dari gaji bulanan, honorarium atau upah atas jasa yang
-                    ditawarkan, maupun dari usaha lainnya yang menghasilkan keuntungan.
-                    Dalam Al-Qur’an, Allah Swt. telah menjelaskan tujuan zakat. Allah Swt.
-                    berfirman:
-                </p>
-                <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                    “Ambillah zakat dari sebagian mereka (guna) membersihkan mereka, dan
-                    doakanlah mereka karena sesungguhnya doamu adalah ketenteraman bagi
-                    mereka. Allah Maha Mendengar lagi Maha Mengetahui.”
-                    (QS. At-Taubah: 103).
-                </p>
-                <p className="mt-3 text-[11px] leading-5 text-neutral-600">
-                    Dari ayat ini, jelas menegaskan bahwa zakat berfungsi sebagai
-                    penyucian harta yang kita peroleh. Sehingga harta kita menjadi bersih
-                    dari hak-hak orang lain, serta untuk memastikan harta yang kita miliki
-                    berkah dan dapat membawa keberkahan.
-                </p>
-                <p className="mt-3 text-[11px] leading-5 text-neutral-600">
-                    Hukum zakat penghasilan ulama fiqh berbeda pendapat. Mayoritas ulama’
-                    Madzhab empat tidak mewajibkan zakat penghasilan pada saat menerima
-                    kecuali sudah mencapai nisab dan setahun (haul). Namun para ulama’
-                    mutaakhirin seperti Syekh Adurrahman Hasan, Syekh Muhammad Abu Zahro,
-                    Syekh Abdul Wahhab Khallaf, Syekh Yusuf Al-Qardhawi, Syekh Wahbah
-                    Az-Zuhaili, hasil kajian majma’ fiqh dan fatwa MUI Nomor 3 tahun 2003
-                    menegaskan bahwa zakat penghasilan itu hukumnya wajib.
-                </p>
+                <div>
+                <Image
+                    src="/images/zakat/zakat.jfif"
+                    alt="Zakat Penghasilan"
+                    width={570}
+                    height={355}
+                    quality={100}
+                    className="h-auto w-full object-cover"
+                />
+                <div className="mt-5">
+                    <h1 className="bg-neutral-50 px-0 text-[20px] font-normal text-[#2F6690]">
+                    Dasar Hukum Zakat Penghasilan
+                    </h1>
+                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                        Zakat penghasilan adalah zakat yang dikenakan atas pendapatan seseorang,
+                        baik bersumber dari gaji bulanan, honorarium atau upah atas jasa yang
+                        ditawarkan, maupun dari usaha lainnya yang menghasilkan keuntungan.
+                        Dalam Al-Qur’an, Allah Swt. telah menjelaskan tujuan zakat. Allah Swt.
+                        berfirman:
+                    </p>
+                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                        “Ambillah zakat dari sebagian mereka (guna) membersihkan mereka, dan
+                        doakanlah mereka karena sesungguhnya doamu adalah ketenteraman bagi
+                        mereka. Allah Maha Mendengar lagi Maha Mengetahui.”
+                        (QS. At-Taubah: 103).
+                    </p>
+                    <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                        Dari ayat ini, jelas menegaskan bahwa zakat berfungsi sebagai
+                        penyucian harta yang kita peroleh. Sehingga harta kita menjadi bersih
+                        dari hak-hak orang lain, serta untuk memastikan harta yang kita miliki
+                        berkah dan dapat membawa keberkahan.
+                    </p>
+                    <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                        Hukum zakat penghasilan ulama fiqh berbeda pendapat. Mayoritas ulama’
+                        Madzhab empat tidak mewajibkan zakat penghasilan pada saat menerima
+                        kecuali sudah mencapai nisab dan setahun (haul). Namun para ulama’
+                        mutaakhirin seperti Syekh Adurrahman Hasan, Syekh Muhammad Abu Zahro,
+                        Syekh Abdul Wahhab Khallaf, Syekh Yusuf Al-Qardhawi, Syekh Wahbah
+                        Az-Zuhaili, hasil kajian majma’ fiqh dan fatwa MUI Nomor 3 tahun 2003
+                        menegaskan bahwa zakat penghasilan itu hukumnya wajib.
+                    </p>
+                </div>
+                <div className="mt-5">
+                    <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690]">
+                        Zakat Penghasilan Berapa Persen?
+                    </h2>
+                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                        Berdasarkan pendapat para ulama dan lembaga zakat di Indonesia,
+                        zakat penghasilan berapa persen yang wajib dikeluarkan, yaitu
+                        sebesar 2,5% dari penghasilan bersih atau kotor, tergantung metode
+                        perhitungannya.
+                    </p>
+                </div>
 
-              </div>
             </div>
             <div>
               <h2 className="text-[18px] font-semibold text-neutral-500">
