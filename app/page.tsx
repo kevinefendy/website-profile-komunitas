@@ -32,7 +32,7 @@ const categories = [
   },
   {
     name: "Blog",
-    href: "/blog",
+    href: "/",
     icon: "/images/homepage/c-blog.png",
   },
 ];
@@ -101,7 +101,7 @@ export default function Home() {
               </h2>
 
               <Link
-                href="/donasi"
+                href="/"
                 className="rounded-full bg-[#214E67] px-3 py-2 text-[10px] text-white transition hover:bg-[#173F57] sm:px-4 sm:text-[11px]"
               >
                 Lihat lainnya
@@ -131,7 +131,7 @@ export default function Home() {
                   </h3>
 
                   <Link
-                    href="/donasi"
+                    href="/"
                     className="mt-3 inline-block rounded-md border border-[#214E67] px-3 py-2 text-[10px] font-bold text-[#214E67] transition hover:bg-[#214E67] hover:text-white sm:px-4 sm:text-[12px] lg:text-[13px]"
                   >
                     Donasi Sekarang
@@ -153,7 +153,7 @@ export default function Home() {
                   </h3>
 
                   <Link
-                    href="/login"
+                    href="/gabung"
                     className="mt-3 inline-block rounded-md border border-[#214E67] px-3 py-2 text-[10px] font-bold text-[#214E67] transition hover:bg-[#214E67] hover:text-white sm:px-4 sm:text-[12px] lg:text-[13px]"
                   >
                     Galang Dana
@@ -198,7 +198,7 @@ export default function Home() {
               </h2>
 
               <Link
-                href="/donasi"
+                href="/"
                 className="rounded-full bg-[#214E67] px-3 py-2 text-[10px] text-white transition hover:bg-[#173F57] sm:px-4 sm:text-[11px]"
               >
                 Lihat lainnya

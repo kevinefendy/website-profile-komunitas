@@ -72,31 +72,31 @@ export default function Footer() {
             <h2 className="text-[20px] font-bold">Tentang</h2>
 
             <div className="mt-5 flex flex-col gap-2 text-[14px] text-white/90">
-              <Link href="/tentang" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Amalan
               </Link>
 
-              <Link href="/syarat-ketentuan" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Syarat & Ketentuan
               </Link>
 
-              <Link href="/kontak" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Hubungi Kami
               </Link>
 
-              <Link href="/partner" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Partner Kami
               </Link>
 
-              <Link href="/faq" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 FAQ
               </Link>
 
-              <Link href="/blog" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Blog
               </Link>
 
-              <Link href="/child-safety" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Child Safety Standards
               </Link>
             </div>
