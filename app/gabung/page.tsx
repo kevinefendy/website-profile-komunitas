@@ -18,9 +18,9 @@ export default function GabungPage() {
 
   return (
     <main className="min-h-screen bg-white">
-      <div className="mx-auto flex min-h-screen max-w-[1280px] items-center px-6 py-10">
+      <div className="mx-auto flex min-h-screen max-w-[1280px] items-center px-4 py-8 sm:px-6 sm:py-10">
         <div className="grid w-full grid-cols-1 items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
-          {/* ILUSTRASI KIRI */}
+          {/* ILUSTRASI KIRI - HANYA DESKTOP */}
           <div className="hidden items-center justify-end lg:flex">
             <Image
               src="/images/gabung/gabung.png"
@@ -32,9 +32,9 @@ export default function GabungPage() {
             />
           </div>
 
-          {/* CARD KANAN */}
+          {/* CARD FORM */}
           <div className="flex justify-center lg:justify-start">
-            <div className="w-full max-w-[550px] rounded-md border border-neutral-200 bg-white px-8 py-10 shadow-sm sm:px-10">
+            <div className="w-full max-w-[550px] rounded-md border border-neutral-200 bg-white px-5 py-8 shadow-sm sm:px-8 sm:py-10 lg:px-10">
               {/* LOGO */}
               <div className="flex justify-center">
                 <div className="flex items-center gap-1">
@@ -44,15 +44,15 @@ export default function GabungPage() {
                     width={64}
                     height={64}
                     priority
-                    className="h-[64px] w-[64px] object-contain"
+                    className="h-[52px] w-[52px] object-contain sm:h-[60px] sm:w-[60px] lg:h-[64px] lg:w-[64px]"
                   />
 
                   <div className="flex flex-col justify-center">
-                    <span className="text-[20px] font-bold leading-none text-neutral-800">
+                    <span className="text-[18px] font-bold leading-none text-neutral-800 sm:text-[19px] lg:text-[20px]">
                       Amalan
                     </span>
 
-                    <span className="mt-[2px] self-end text-[9px] font-semibold leading-none text-neutral-500">
+                    <span className="mt-[2px] self-end text-[8px] font-semibold leading-none text-neutral-500 sm:text-[9px]">
                       .com
                     </span>
                   </div>
@@ -61,7 +61,7 @@ export default function GabungPage() {
 
               {/* JUDUL */}
               <div className="mt-6 text-center">
-                <h1 className="text-[20px] font-bold text-[#172B3A] sm:text-[22px]">
+                <h1 className="text-[19px] font-bold text-[#172B3A] sm:text-[21px] lg:text-[22px]">
                   Gabung Komunitas
                 </h1>
 
@@ -123,9 +123,11 @@ export default function GabungPage() {
 
               {/* INFO */}
               <div className="mt-6 flex items-center justify-center gap-2">
-                <span className="text-[15px] text-neutral-400">◷</span>
+                <span className="text-[14px] text-neutral-400 sm:text-[15px]">
+                  ◷
+                </span>
 
-                <p className="text-[11px] text-neutral-500 sm:text-[12px]">
+                <p className="text-center text-[10px] leading-4 text-neutral-500 sm:text-[12px]">
                   Permintaan akan direview admin dalam 1x24 jam
                 </p>
               </div>
