@@ -12,7 +12,7 @@ export default function ZakatPage() {
     <>
       <Navbar />
 
-      <main className="bg-white">
+      <main className="bg-white pb-12">
         <div className="mx-auto max-w-[1280px] px-6">
           <div className="py-5 text-[11px] text-neutral-600 sm:text-[12px]">
             <Link href="/" className="hover:text-[#214E67]">
@@ -120,7 +120,7 @@ export default function ZakatPage() {
               </div>
             </div>
 
-            <div>
+            <div className="h-fit rounded-xl border border-neutral-200 bg-white p-5 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
               <h2 className="text-[18px] font-semibold text-neutral-600 sm:text-[20px]">
                 Zakat Penghasilan
               </h2>
@@ -190,4 +190,4 @@ export default function ZakatPage() {
       <Footer />
     </>
   );
-};
+}
