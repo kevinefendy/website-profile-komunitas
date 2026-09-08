@@ -12,9 +12,9 @@ export default function ZakatPage() {
     <>
       <Navbar />
 
-      <main className="bg-white pb-12">
-        <div className="mx-auto max-w-[1280px] px-6">
-          <div className="py-5 text-[11px] text-neutral-600 sm:text-[12px]">
+      <main className="bg-white pb-10 sm:pb-12">
+        <div className="mx-auto max-w-[1280px] px-4 sm:px-6">
+          <div className="py-4 text-[10px] text-neutral-600 sm:py-5 sm:text-[12px]">
             <Link href="/" className="hover:text-[#214E67]">
               Beranda
             </Link>
@@ -25,22 +25,24 @@ export default function ZakatPage() {
           </div>
 
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(280px,1fr)] lg:gap-10">
-            <div>
-              <Image
-                src="/images/zakat/zakat.jfif"
-                alt="Zakat Penghasilan"
-                width={570}
-                height={355}
-                quality={100}
-                className="h-auto w-full object-cover"
-              />
+            <div className="min-w-0">
+              <div className="overflow-hidden rounded-lg">
+                <Image
+                  src="/images/zakat/zakat.jfif"
+                  alt="Zakat Penghasilan"
+                  width={900}
+                  height={560}
+                  quality={100}
+                  className="h-auto w-full object-cover"
+                />
+              </div>
 
               <div className="mt-5">
-                <h1 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690] sm:text-[22px] lg:text-[24px]">
+                <h1 className="text-[18px] font-normal leading-tight text-[#2F6690] sm:text-[22px] lg:text-[24px]">
                   Dasar Hukum Zakat Penghasilan
                 </h1>
 
-                <p className="mt-2 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
+                <p className="mt-3 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
                   Zakat penghasilan adalah zakat yang dikenakan atas pendapatan
                   seseorang, baik bersumber dari gaji bulanan, honorarium atau
                   upah atas jasa yang ditawarkan, maupun dari usaha lainnya yang
@@ -48,7 +50,7 @@ export default function ZakatPage() {
                   menjelaskan tujuan zakat. Allah Swt. berfirman:
                 </p>
 
-                <p className="mt-2 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
+                <p className="mt-3 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
                   “Ambillah zakat dari sebagian mereka (guna) membersihkan
                   mereka, dan doakanlah mereka karena sesungguhnya doamu adalah
                   ketenteraman bagi mereka. Allah Maha Mendengar lagi Maha
@@ -74,12 +76,12 @@ export default function ZakatPage() {
                 </p>
               </div>
 
-              <div className="mt-5">
-                <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690] sm:text-[22px] lg:text-[24px]">
+              <div className="mt-7">
+                <h2 className="text-[18px] font-normal leading-tight text-[#2F6690] sm:text-[22px] lg:text-[24px]">
                   Zakat Penghasilan Berapa Persen?
                 </h2>
 
-                <p className="mt-2 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
+                <p className="mt-3 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
                   Berdasarkan pendapat para ulama dan lembaga zakat di
                   Indonesia, zakat penghasilan berapa persen yang wajib
                   dikeluarkan, yaitu sebesar 2,5% dari penghasilan bersih atau
@@ -87,12 +89,12 @@ export default function ZakatPage() {
                 </p>
               </div>
 
-              <div className="mt-5">
-                <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690] sm:text-[22px] lg:text-[24px]">
+              <div className="mt-7">
+                <h2 className="text-[18px] font-normal leading-tight text-[#2F6690] sm:text-[22px] lg:text-[24px]">
                   Nisab Zakat Penghasilan
                 </h2>
 
-                <p className="mt-2 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
+                <p className="mt-3 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
                   Nisab adalah batas minimal harta yang wajib untuk kita
                   keluarkan zakatnya. Dalam zakat penghasilan, nisabnya
                   disamakan dengan nilai emas sebesar 85 gram emas yang telah
@@ -101,16 +103,18 @@ export default function ZakatPage() {
                   saat itu.
                 </p>
 
-                <p className="mt-3 bg-neutral-50 p-3 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
-                  Misalnya, jika harga emas per gram adalah Rp2.670.000,00
-                  (harga ANTAM per tanggal 19 Februari 2026), maka nisab zakat
-                  penghasilan adalah:
-                  <br />
-                  85 gram × Rp2.670.000,00 = Rp226.950.000 per tahun atau
-                  Rp18.912.500 per bulan
-                </p>
+                <div className="mt-4 rounded-lg bg-neutral-50 p-3 sm:p-4">
+                  <p className="text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
+                    Misalnya, jika harga emas per gram adalah Rp2.670.000,00
+                    (harga ANTAM per tanggal 19 Februari 2026), maka nisab zakat
+                    penghasilan adalah:
+                    <br />
+                    85 gram × Rp2.670.000,00 = Rp226.950.000 per tahun atau
+                    Rp18.912.500 per bulan
+                  </p>
+                </div>
 
-                <p className="mt-3 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
+                <p className="mt-4 text-[12px] leading-5 text-neutral-600 sm:text-[13px] sm:leading-6 lg:text-[14px]">
                   Jika penghasilan kita telah mencapai atau melebihi nisab ini,
                   maka kita wajib mengeluarkan zakat sebesar 2,5%. Jika
                   penghasilan kita belum mencapai nisab, maka kita tidak
@@ -120,12 +124,12 @@ export default function ZakatPage() {
               </div>
             </div>
 
-            <div className="h-fit rounded-xl border border-neutral-200 bg-white p-5 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
-              <h2 className="text-[18px] font-semibold text-neutral-600 sm:text-[20px]">
+            <aside className="h-fit rounded-xl border border-neutral-200 bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.06)] sm:p-5">
+              <h2 className="text-[17px] font-semibold text-neutral-700 sm:text-[20px]">
                 Zakat Penghasilan
               </h2>
 
-              <p className="mt-3 text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
+              <p className="mt-2 text-[11px] leading-5 text-neutral-500 sm:mt-3 sm:text-[12px] lg:text-[13px]">
                 Zakat penghasilan merupakan bagian dari zakat maal dan wajib
                 diberikan atas pendapatan yang dimiliki
               </p>
@@ -134,7 +138,7 @@ export default function ZakatPage() {
                 <div className="flex items-center gap-3 border-b border-neutral-200 py-4">
                   <Icon
                     icon="material-symbols:calculate-outline"
-                    className="text-[22px] text-neutral-500"
+                    className="shrink-0 text-[22px] text-neutral-500"
                   />
 
                   <span className="text-[11px] font-semibold text-neutral-600 sm:text-[12px] lg:text-[13px]">
@@ -146,7 +150,7 @@ export default function ZakatPage() {
                   <div className="flex items-center gap-3">
                     <Icon
                       icon="material-symbols:volunteer-activism-outline"
-                      className="text-[22px] text-neutral-500"
+                      className="shrink-0 text-[22px] text-neutral-500"
                     />
 
                     <span className="text-[11px] font-semibold text-neutral-600 sm:text-[12px] lg:text-[13px]">
@@ -154,7 +158,7 @@ export default function ZakatPage() {
                     </span>
                   </div>
 
-                  <div className="mt-3 space-y-1">
+                  <div className="mt-3 space-y-2">
                     <p className="text-[11px] leading-5 text-neutral-500 sm:text-[12px] lg:text-[13px]">
                       نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ مَالِي فَرِيْضَةً لِلَّهِ
                       تَعَالَى
@@ -174,11 +178,11 @@ export default function ZakatPage() {
 
               <button
                 onClick={() => alert("Terima kasih telah membayar zakat.")}
-                className="mt-4 w-full rounded bg-[#79bfd8] py-2.5 text-[12px] font-semibold text-white transition hover:bg-[#69B8D3] sm:text-[13px]"
+                className="mt-4 w-full rounded-md bg-[#79bfd8] py-2.5 text-[12px] font-semibold text-white transition hover:bg-[#69B8D3] sm:text-[13px]"
               >
                 BAYAR ZAKAT
               </button>
-            </div>
+            </aside>
           </div>
         </div>
       </main>
