@@ -107,6 +107,36 @@ export default function ZakatPage() {
                     </p>
                 </div>
 
+                <div className="mt-5">
+                    <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690]">
+                        Nisab Zakat Penghasilan
+                    </h2>
+
+                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                        Nisab adalah batas minimal harta yang wajib untuk kita keluarkan
+                        zakatnya. Dalam zakat penghasilan, nisabnya disamakan dengan nilai
+                        emas sebesar 85 gram emas yang telah disimpan selama satu tahun.
+                        Jika dikonversikan ke dalam bentuk mata uang rupiah, nilainya
+                        mengikuti harga emas yang berlaku saat itu.
+                    </p>
+
+                    <p className="mt-3 bg-neutral-50 p-2 text-[11px] leading-5 text-neutral-600">
+                        Misalnya, jika harga emas per gram adalah Rp2.670.000,00
+                        (harga ANTAM per tanggal 19 Februari 2026), maka nisab zakat
+                        penghasilan adalah:
+                        <br />
+                        85 gram × Rp2.670.000,00 = Rp226.950.000 per tahun atau
+                        Rp18.912.500 per bulan
+                    </p>
+
+                    <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                        Jika penghasilan kita telah mencapai atau melebihi nisab ini,
+                        maka kita wajib mengeluarkan zakat sebesar 2,5%. Jika penghasilan
+                        kita belum mencapai nisab, maka kita tidak diwajibkan membayar
+                        zakat, tetapi tetap dianjurkan untuk bersedekah.
+                    </p>
+                </div>
+
             </div>
             <div>
               <h2 className="text-[18px] font-semibold text-neutral-500">
