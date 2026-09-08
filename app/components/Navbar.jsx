@@ -87,7 +87,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/login"
+            href="/gabung"
             className="
               rounded-full
               bg-[#7BC5DE]
@@ -194,7 +194,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/login"
+              href="/gabung"
               onClick={() => setIsOpen(false)}
               className="
                 mt-2
