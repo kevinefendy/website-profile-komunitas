@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -66,11 +67,19 @@ export default function ZakatPage() {
                   Dasar Hukum Zakat Penghasilan
                 </h1>
                 <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                  Zakat penghasilan adalah zakat yang dikenakan atas pendapatan
-                  seseorang, baik bersumber dari gaji bulanan, honorarium atau
-                  upah atas jasa yang ditawarkan, maupun dari usaha lainnya yang
-                  menghasilkan keuntungan.
+                    Zakat penghasilan adalah zakat yang dikenakan atas pendapatan seseorang,
+                    baik bersumber dari gaji bulanan, honorarium atau upah atas jasa yang
+                    ditawarkan, maupun dari usaha lainnya yang menghasilkan keuntungan.
+                    Dalam Al-Qur’an, Allah Swt. telah menjelaskan tujuan zakat. Allah Swt.
+                    berfirman:
                 </p>
+                <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                    “Ambillah zakat dari sebagian mereka (guna) membersihkan mereka, dan
+                    doakanlah mereka karena sesungguhnya doamu adalah ketenteraman bagi
+                    mereka. Allah Maha Mendengar lagi Maha Mengetahui.”
+                    (QS. At-Taubah: 103).
+                </p>
+                
               </div>
             </div>
             <div>
