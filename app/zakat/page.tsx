@@ -43,160 +43,163 @@ export default function ZakatPage() {
     <>
       <Navbar />
 
-      <main className="bg-white">
-        <div className="mx-auto max-w-[900px] px-5">
-          <div className="py-5 text-[11px] text-neutral-600">
-            <Link href="/" className="hover:text-[#214E67]">
-              Beranda
-            </Link>
-            <span className="mx-2">&gt;</span>
-            <span>Zakat</span>
-          </div>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-[570px_287px]">
-                <div>
+        <main className="bg-white">
+          <div className="mx-auto max-w-[900px] px-5">
+            <div className="py-5 text-[11px] text-neutral-600">
+              <Link href="/" className="hover:text-[#214E67]">
+                Beranda
+              </Link>
+              <span className="mx-2">&gt;</span>
+              <span>Zakat</span>
+            </div>
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-[570px_287px]">
+              <div>
                 <Image
-                    src="/images/zakat/zakat.jfif"
-                    alt="Zakat Penghasilan"
-                    width={570}
-                    height={355}
-                    quality={100}
-                    className="h-auto w-full object-cover"
+                  src="/images/zakat/zakat.jfif"
+                  alt="Zakat Penghasilan"
+                  width={570}
+                  height={355}
+                  quality={100}
+                  className="h-auto w-full object-cover"
                 />
                 <div className="mt-5">
-                    <h1 className="bg-neutral-50 px-0 text-[20px] font-normal text-[#2F6690]">
+                  <h1 className="bg-neutral-50 px-0 text-[20px] font-normal text-[#2F6690]">
                     Dasar Hukum Zakat Penghasilan
-                    </h1>
-                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                        Zakat penghasilan adalah zakat yang dikenakan atas pendapatan seseorang,
-                        baik bersumber dari gaji bulanan, honorarium atau upah atas jasa yang
-                        ditawarkan, maupun dari usaha lainnya yang menghasilkan keuntungan.
-                        Dalam Al-Qur’an, Allah Swt. telah menjelaskan tujuan zakat. Allah Swt.
-                        berfirman:
-                    </p>
-                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                        “Ambillah zakat dari sebagian mereka (guna) membersihkan mereka, dan
-                        doakanlah mereka karena sesungguhnya doamu adalah ketenteraman bagi
-                        mereka. Allah Maha Mendengar lagi Maha Mengetahui.”
-                        (QS. At-Taubah: 103).
-                    </p>
-                    <p className="mt-3 text-[11px] leading-5 text-neutral-600">
-                        Dari ayat ini, jelas menegaskan bahwa zakat berfungsi sebagai
-                        penyucian harta yang kita peroleh. Sehingga harta kita menjadi bersih
-                        dari hak-hak orang lain, serta untuk memastikan harta yang kita miliki
-                        berkah dan dapat membawa keberkahan.
-                    </p>
-                    <p className="mt-3 text-[11px] leading-5 text-neutral-600">
-                        Hukum zakat penghasilan ulama fiqh berbeda pendapat. Mayoritas ulama’
-                        Madzhab empat tidak mewajibkan zakat penghasilan pada saat menerima
-                        kecuali sudah mencapai nisab dan setahun (haul). Namun para ulama’
-                        mutaakhirin seperti Syekh Adurrahman Hasan, Syekh Muhammad Abu Zahro,
-                        Syekh Abdul Wahhab Khallaf, Syekh Yusuf Al-Qardhawi, Syekh Wahbah
-                        Az-Zuhaili, hasil kajian majma’ fiqh dan fatwa MUI Nomor 3 tahun 2003
-                        menegaskan bahwa zakat penghasilan itu hukumnya wajib.
-                    </p>
+                  </h1>
+                  <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                    Zakat penghasilan adalah zakat yang dikenakan atas pendapatan
+                    seseorang, baik bersumber dari gaji bulanan, honorarium atau
+                    upah atas jasa yang ditawarkan, maupun dari usaha lainnya yang
+                    menghasilkan keuntungan. Dalam Al-Qur’an, Allah Swt. telah
+                    menjelaskan tujuan zakat. Allah Swt. berfirman:
+                  </p>
+                  <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                    “Ambillah zakat dari sebagian mereka (guna) membersihkan
+                    mereka, dan doakanlah mereka karena sesungguhnya doamu adalah
+                    ketenteraman bagi mereka. Allah Maha Mendengar lagi Maha
+                    Mengetahui.” (QS. At-Taubah: 103).
+                  </p>
+                  <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                    Dari ayat ini, jelas menegaskan bahwa zakat berfungsi sebagai
+                    penyucian harta yang kita peroleh. Sehingga harta kita menjadi
+                    bersih dari hak-hak orang lain, serta untuk memastikan harta
+                    yang kita miliki berkah dan dapat membawa keberkahan.
+                  </p>
+                  <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                    Hukum zakat penghasilan ulama fiqh berbeda pendapat. Mayoritas
+                    ulama’ Madzhab empat tidak mewajibkan zakat penghasilan pada
+                    saat menerima kecuali sudah mencapai nisab dan setahun (haul).
+                    Namun para ulama’ mutaakhirin seperti Syekh Adurrahman Hasan,
+                    Syekh Muhammad Abu Zahro, Syekh Abdul Wahhab Khallaf, Syekh
+                    Yusuf Al-Qardhawi, Syekh Wahbah Az-Zuhaili, hasil kajian
+                    majma’ fiqh dan fatwa MUI Nomor 3 tahun 2003 menegaskan bahwa
+                    zakat penghasilan itu hukumnya wajib.
+                  </p>
                 </div>
                 <div className="mt-5">
-                    <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690]">
-                        Zakat Penghasilan Berapa Persen?
-                    </h2>
-                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                        Berdasarkan pendapat para ulama dan lembaga zakat di Indonesia,
-                        zakat penghasilan berapa persen yang wajib dikeluarkan, yaitu
-                        sebesar 2,5% dari penghasilan bersih atau kotor, tergantung metode
-                        perhitungannya.
-                    </p>
+                  <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690]">
+                    Zakat Penghasilan Berapa Persen?
+                  </h2>
+                  <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                    Berdasarkan pendapat para ulama dan lembaga zakat di
+                    Indonesia, zakat penghasilan berapa persen yang wajib
+                    dikeluarkan, yaitu sebesar 2,5% dari penghasilan bersih atau
+                    kotor, tergantung metode perhitungannya.
+                  </p>
                 </div>
 
                 <div className="mt-5">
-                    <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690]">
-                        Nisab Zakat Penghasilan
-                    </h2>
+                  <h2 className="bg-neutral-50 text-[20px] font-normal text-[#2F6690]">
+                    Nisab Zakat Penghasilan
+                  </h2>
 
-                    <p className="mt-2 text-[11px] leading-5 text-neutral-600">
-                        Nisab adalah batas minimal harta yang wajib untuk kita keluarkan
-                        zakatnya. Dalam zakat penghasilan, nisabnya disamakan dengan nilai
-                        emas sebesar 85 gram emas yang telah disimpan selama satu tahun.
-                        Jika dikonversikan ke dalam bentuk mata uang rupiah, nilainya
-                        mengikuti harga emas yang berlaku saat itu.
-                    </p>
-
-                    <p className="mt-3 bg-neutral-50 p-2 text-[11px] leading-5 text-neutral-600">
-                        Misalnya, jika harga emas per gram adalah Rp2.670.000,00
-                        (harga ANTAM per tanggal 19 Februari 2026), maka nisab zakat
-                        penghasilan adalah:
-                        <br />
-                        85 gram × Rp2.670.000,00 = Rp226.950.000 per tahun atau
-                        Rp18.912.500 per bulan
-                    </p>
-
-                    <p className="mt-3 text-[11px] leading-5 text-neutral-600">
-                        Jika penghasilan kita telah mencapai atau melebihi nisab ini,
-                        maka kita wajib mengeluarkan zakat sebesar 2,5%. Jika penghasilan
-                        kita belum mencapai nisab, maka kita tidak diwajibkan membayar
-                        zakat, tetapi tetap dianjurkan untuk bersedekah.
-                    </p>
-                </div>
-
-            </div>
-            <div>
-              <h2 className="text-[18px] font-semibold text-neutral-500">
-                Zakat Penghasilan
-              </h2>
-              <p className="mt-3 text-[11px] leading-5 text-neutral-500">
-                Zakat penghasilan merupakan bagian dari zakat maal dan wajib
-                diberikan atas pendapatan yang dimiliki
-              </p>
-              <div className="mt-4 border-t border-neutral-200">
-                <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
-                  <div className="flex items-center gap-3">
-                        <Icon
-                            icon="material-symbols:calculate-outline"
-                            className="text-[18px] text-neutral-500"
-                        />
-
-                        <span className="text-[11px] font-semibold text-neutral-600">
-                            Kalkulator Zakat Penghasilan
-                        </span>
-                    </div>
-                </div>
-                <div className="border-b border-neutral-200 py-3">
-                  <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
-                        <div>
-                            <div className="flex items-center gap-3">
-                                <Icon
-                                    icon="material-symbols:volunteer-activism-outline"
-                                    className="text-[18px] text-neutral-500"
-                                />
-
-                                <span className="text-[11px] font-semibold text-neutral-600">
-                                    Niat Zakat Penghasilan
-                                </span>
-                            </div>
-                        </div>
-                  </div>
-                  <p className="mt-2 text-[11px] leading-5 text-neutral-500">
-                    نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ مَالِي فَرِيْضَةً لِلَّهِ
-                    تَعَالَى
+                  <p className="mt-2 text-[11px] leading-5 text-neutral-600">
+                    Nisab adalah batas minimal harta yang wajib untuk kita
+                    keluarkan zakatnya. Dalam zakat penghasilan, nisabnya
+                    disamakan dengan nilai emas sebesar 85 gram emas yang telah
+                    disimpan selama satu tahun. Jika dikonversikan ke dalam bentuk
+                    mata uang rupiah, nilainya mengikuti harga emas yang berlaku
+                    saat itu.
                   </p>
-                  <p className="text-[11px] leading-5 text-neutral-500">
-                    “Nawaitu an ukhrija zakaati maali fardha lillahi ta’aala”
+
+                  <p className="mt-3 bg-neutral-50 p-2 text-[11px] leading-5 text-neutral-600">
+                    Misalnya, jika harga emas per gram adalah Rp2.670.000,00
+                    (harga ANTAM per tanggal 19 Februari 2026), maka nisab zakat
+                    penghasilan adalah:
+                    <br />
+                    85 gram × Rp2.670.000,00 = Rp226.950.000 per tahun atau
+                    Rp18.912.500 per bulan
                   </p>
-                  <p className="text-[11px] leading-5 text-neutral-500">
-                    Saya berniat mengeluarkan zakat harta milikku karena Allah
-                    Ta’ala
+
+                  <p className="mt-3 text-[11px] leading-5 text-neutral-600">
+                    Jika penghasilan kita telah mencapai atau melebihi nisab ini,
+                    maka kita wajib mengeluarkan zakat sebesar 2,5%. Jika
+                    penghasilan kita belum mencapai nisab, maka kita tidak
+                    diwajibkan membayar zakat, tetapi tetap dianjurkan untuk
+                    bersedekah.
                   </p>
                 </div>
               </div>
+              <div>
+                <h2 className="text-[18px] font-semibold text-neutral-500">
+                  Zakat Penghasilan
+                </h2>
+                <p className="mt-3 text-[11px] leading-5 text-neutral-500">
+                  Zakat penghasilan merupakan bagian dari zakat maal dan wajib
+                  diberikan atas pendapatan yang dimiliki
+                </p>
+                <div className="mt-4 border-t border-neutral-200">
+                  <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
+                    <div className="flex items-center gap-3">
+                      <Icon
+                        icon="material-symbols:calculate-outline"
+                        className="text-[18px] text-neutral-500"
+                      />
+
+                      <span className="text-[11px] font-semibold text-neutral-600">
+                        Kalkulator Zakat Penghasilan
+                      </span>
+                    </div>
+                  </div>
+                  <div className="border-b border-neutral-200 py-3">
+                    <div className="flex items-center gap-3 border-b border-neutral-200 py-3">
+                      <div>
+                        <div className="flex items-center gap-3">
+                          <Icon
+                            icon="material-symbols:volunteer-activism-outline"
+                            className="text-[18px] text-neutral-500"
+                          />
+
+                          <span className="text-[11px] font-semibold text-neutral-600">
+                            Niat Zakat Penghasilan
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="mt-2 text-[11px] leading-5 text-neutral-500">
+                      نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ مَالِي فَرِيْضَةً لِلَّهِ
+                      تَعَالَى
+                    </p>
+                    <p className="text-[11px] leading-5 text-neutral-500">
+                      “Nawaitu an ukhrija zakaati maali fardha lillahi ta’aala”
+                    </p>
+                    <p className="text-[11px] leading-5 text-neutral-500">
+                      Saya berniat mengeluarkan zakat harta milikku karena Allah
+                      Ta’ala
+                    </p>
+                  </div>
+                </div>
                 <button
-                    onClick={() => alert("Terima kasih telah membayar zakat.")}
-                    className="mt-4 w-full rounded bg-[#79bfd8] py-2 text-[11px] font-semibold text-white"
+                  onClick={() => alert("Terima kasih telah membayar zakat.")}
+                  className="mt-4 w-full rounded bg-[#79bfd8] py-2 text-[11px] font-semibold text-white"
                 >
-                    BAYAR ZAKAT
+                  BAYAR ZAKAT
                 </button>
+              </div>
             </div>
           </div>
-        </div>
-      </main>
+        </main>
+      <Footer />
     </>
   );
 }
