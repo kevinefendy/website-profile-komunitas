@@ -156,7 +156,7 @@ export default function DonationCard({
             </p>
 
             <Link
-              href={href}
+              href="/"
               className="flex h-[38px] w-full items-center justify-center rounded-md bg-[#7BC5DE] text-[15px] font-medium text-white transition hover:bg-[#69B8D3]"
             >
               {buttonText}
