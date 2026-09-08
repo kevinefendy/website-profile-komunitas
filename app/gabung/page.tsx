@@ -1,14 +1,19 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function GabungPage() {
+  const router = useRouter();
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     alert(
       "Permintaan bergabung berhasil dikirim. Admin akan menghubungi kamu untuk konfirmasi.",
     );
+
+    router.push("/");
   };
 
   return (
@@ -32,7 +37,7 @@ export default function GabungPage() {
             <div className="w-full max-w-[550px] rounded-md border border-neutral-200 bg-white px-8 py-10 shadow-sm sm:px-10">
               {/* LOGO */}
               <div className="flex justify-center">
-                <div className="flex items-center">
+                <div className="flex items-center gap-1">
                   <Image
                     src="/images/logo.png"
                     alt="Amalan.com"
@@ -54,6 +59,7 @@ export default function GabungPage() {
                 </div>
               </div>
 
+              {/* JUDUL */}
               <div className="mt-6 text-center">
                 <h1 className="text-[20px] font-bold text-[#172B3A] sm:text-[22px]">
                   Gabung Komunitas
@@ -66,6 +72,7 @@ export default function GabungPage() {
                 </p>
               </div>
 
+              {/* FORM */}
               <form onSubmit={handleSubmit} className="mt-7 space-y-5">
                 <div>
                   <label className="mb-2 block text-[12px] font-medium text-[#172B3A] sm:text-[13px]">
@@ -114,6 +121,7 @@ export default function GabungPage() {
                 </button>
               </form>
 
+              {/* INFO */}
               <div className="mt-6 flex items-center justify-center gap-2">
                 <span className="text-[15px] text-neutral-400">◷</span>
 
