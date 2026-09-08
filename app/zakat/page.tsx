@@ -13,7 +13,7 @@ export default function ZakatPage() {
       <Navbar />
 
       <main className="bg-white">
-        <div className="mx-auto max-w-[900px] px-5">
+        <div className="mx-auto max-w-[1280px] px-6">
           <div className="py-5 text-[11px] text-neutral-600">
             <Link href="/" className="hover:text-[#214E67]">
               Beranda
@@ -21,7 +21,7 @@ export default function ZakatPage() {
             <span className="mx-2">&gt;</span>
             <span>Zakat</span>
           </div>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-[570px_287px]">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,2fr)_minmax(280px,1fr)] lg:gap-10">
             <div>
               <Image
                 src="/images/zakat/zakat.jfif"
