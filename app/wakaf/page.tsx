@@ -13,9 +13,9 @@ export default function WakafPage() {
     <>
       <Navbar />
 
-      <main className="bg-white pb-12">
-        <div className="mx-auto max-w-[1280px] px-6">
-          <div className="py-5 text-[12px] text-neutral-600">
+      <main className="bg-white pb-10 sm:pb-12">
+        <div className="mx-auto max-w-[1280px] px-4 sm:px-6">
+          <div className="py-4 text-[10px] text-neutral-600 sm:py-5 sm:text-[12px]">
             <Link href="/" className="hover:text-[#214E67]">
               Beranda
             </Link>
@@ -26,7 +26,7 @@ export default function WakafPage() {
           </div>
 
           <section>
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 gap-0 lg:grid-cols-4 lg:gap-5">
               {wakafItems.map((item) => (
                 <DonationCard key={item.id} {...item} />
               ))}
